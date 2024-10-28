@@ -1,0 +1,68 @@
+.error-msg {
+    color: orangered;
+    /*font-weight: bold;*/
+}
+
+.margin-bottom-card:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.order_details_div:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.order-photo {
+    width: 100px;
+    height: 100px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .cart-img-res {
+        width: 300px;
+    }
+
+    .page-not-found {
+        width: 350px;
+    }
+
+    .product-not-found {
+        width: 350px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .cart-img-res {
+        width: 300px;
+    }
+
+    .page-not-found {
+        width: 360px;
+    }
+
+    .product-not-found {
+        width: 380px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /*.cart-img-res {*/
+    /*    width: 300px;*/
+    /*}*/
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /*.cart-img-res {*/
+    /*    width: 100px;*/
+    /*}*/
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /*.cart-img-res {*/
+    /*    width: 100px;*/
+    /*}*/
+}
